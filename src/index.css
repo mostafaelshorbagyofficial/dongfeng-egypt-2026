@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dongfeng-red: #E60012;
+  --color-dongfeng-red-dark: #B8000E;
+  --color-dongfeng-black: #08090A;
+  --color-dongfeng-dark: #0E1013;
+  --color-dongfeng-card: #14171C;
+  --color-dongfeng-border: #222730;
+  --color-dongfeng-muted: #1A1E24;
+  --color-dongfeng-gray: #8E95A2;
+  --color-dongfeng-silver: #C5CAD3;
+  --color-dongfeng-light: #F4F6F9;
+
+  --font-sans: 'Plus Jakarta Sans', Inter, system-ui, sans-serif;
+  --font-arabic: 'Noto Sans Arabic', 'Cairo', system-ui, sans-serif;
+  --font-display: 'Space Grotesk', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+:root {
+  --container-max-w: 1320px;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #08090A;
+  color: #F4F6F9;
+  font-family: 'Plus Jakarta Sans', Inter, system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  overflow-x: hidden;
+}
+
+[dir="rtl"] body,
+[dir="rtl"] {
+  font-family: 'Noto Sans Arabic', 'Cairo', system-ui, -apple-system, sans-serif;
+  letter-spacing: normal;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08090A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262B35;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E60012;
+}
+
+/* Safe Area & Layout Containers */
+.section-container {
+  width: 100%;
+  max-width: var(--container-max-w);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.25rem, 5vw, 3rem);
+  padding-right: clamp(1.25rem, 5vw, 3rem);
+}
+
+.badge-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(230, 0, 18, 0.12);
+  color: #E60012;
+  border: 1px solid rgba(230, 0, 18, 0.3);
+  border-radius: 9999px;
+}
+
+.badge-dark {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #14171C;
+  color: #8E95A2;
+  border: 1px solid #222730;
+  border-radius: 9999px;
+}
+
+.text-gradient-red {
+  background: linear-gradient(135deg, #FFFFFF 0%, #E60012 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-silver {
+  background: linear-gradient(180deg, #FFFFFF 0%, #8E95A2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
