@@ -714,15 +714,5 @@ export const PRESENTATION_CONTENT = {
     punchlineAr: "KEEP BUSINESS MOVING.",
     presenterNoteEn: "Strategic Marketing Proposal developed for Dongfeng Commercial Egypt Executive Leadership.",
     presenterNoteAr: "استراتيجية تسويقية متكاملة تم إعدادها للإدارة العليا لشركة دونج فينج التجارية مصر."
-  },
-  leadershipSpotlight: {
-    tagEn: "STRATEGIC LEADERSHIP & EXECUTION",
-    tagAr: "القيادة الاستراتيجية والتنفيذ",
-    nameEn: "Mostafa Fouad",
-    nameAr: "مصطفى فؤاد",
-    titleEn: "Managing Director • ProMedia",
-    titleAr: "المدير العام • بروميديا",
-    quoteEn: "Commercial mobility in Egypt is not about horsepower on paper. It is about whether a business owner can deliver goods before sunset, protect profit margins, and trust a partner when roads get tough. Dongfeng 2026 is engineered around that exact reality.",
-    quoteAr: "النقل التجاري في مصر مش مجرد أرقام محركات على الورق. الحقيقة إن صاحب الشغل محتاج يعرف هل هيقدر يوصل بضاعته قبل ما اليوم يخلص، يحافظ على مكسبه، ويلاقي شريك حقيقي يثق فيه لما الشغل يضغط. استراتيجية دونج فينج 2026 مبنية بالكامل على هذا الواقع."
   }
 };

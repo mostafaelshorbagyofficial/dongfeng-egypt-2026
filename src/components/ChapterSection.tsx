@@ -7,7 +7,6 @@ import { InteractiveBusinessFinder } from './InteractiveBusinessFinder';
 import { InteractiveSocialMix } from './InteractiveMediaMix';
 import { InteractiveFunnel } from './InteractiveFunnel';
 import { InteractiveRoadmap } from './InteractiveRoadmap';
-import { MostafaFouadSpotlight } from './MostafaFouadSpotlight';
 import {
   Truck,
   Package,
@@ -928,11 +927,6 @@ export const ChapterSection: React.FC<ChapterSectionProps> = ({ id }) => {
                 </div>
               </div>
             ))}
-          </div>
-
-          {/* Strategic Context & Leadership Spotlight */}
-          <div className="pt-8">
-            <MostafaFouadSpotlight />
           </div>
         </div>
       </section>
